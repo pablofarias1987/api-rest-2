@@ -1,0 +1,57 @@
+		backend
+ -D = DEPENDENCIA DE DESARROLLO
+AQUI VOY = 33:00
+
+		aplicacion de imagenes
+
+1. npm i typescript -D  2:30
+
+2. npx tsc --init 3:30
+
+3. npm i express 5:52
+
+4. npm i @types/express -D 6:30
+
+5. react snipe 7:00
+
+6. npm rimraf  12:30
+
+7. npm i nodemon -D 15:00
+
+8. npm i ts-node 17:50
+
+9. npm i morgan 21:50
+
+10. npm i @types/morgan -D 22:10
+
+11. npm i mongoose 29:00
+
+12. npm i @types/mongoose -D 29:20 
+
+13. insomnia rest 43:00
+
+14. npm i multer 47:50
+
+14. npm i @types/multer -D
+
+15. npm i uuid 51:40
+
+16. npm i @types/uuid -D 52:00
+
+17. npm i fs-extra 1:13:00
+
+18. npm i @types/fs-extra -D 1:14:14
+
+19. npm i cors : extra
+
+20. npm install @types/cors :EXTRA
+
+		login
+
+1. npm i jsonwebtoken 2:00
+
+2. npm i bcrypt passport passport-jwt 3:20
+
+3. npm i - D tsc-watch @types/bcrypt @types/cors @types/jsonwebtoken @types/passport @types/passport-jwt 6:00
+
+3. npm i typescript 7:00
