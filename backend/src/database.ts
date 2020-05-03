@@ -1,4 +1,5 @@
 import { connect } from 'mongoose';
+const uuidv4 = require('uuid/v4');
 
 export async function startConnection() {
     await connect('mongodb://localhost/photo-gallery-db',{
@@ -9,6 +10,8 @@ export async function startConnection() {
     });
     console.log('Database is connected');
 }
+
+
 
 import mongoose, { ConnectionOptions} from 'mongoose';
 import config from './config/config';
@@ -22,6 +25,7 @@ const dbOptions: ConnectionOptions = {
 };
 
 mongoose.connect(config.DB.URI, dbOptions);
+
 
 const connection = mongoose.connection;
 

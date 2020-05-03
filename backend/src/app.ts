@@ -4,12 +4,13 @@ import path from 'path';
 import cors from 'cors';
 import passport from 'passport'
 import passportMiddleware from './middlewares/passport';
-
 import indexRoutes from './routes/index';
 import authRoutes from './routes/auth.routes';
 import specialRoutes from './routes/special.routes';
 import { startConnection } from './database';
 
+
+const uuidv4 = require('uuid/v4');
 
 // Initializations
 const app: Application = express();

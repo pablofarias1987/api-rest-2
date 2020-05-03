@@ -3,7 +3,7 @@ import fs from 'fs-extra';
 import path from 'path'
 
 // Models
-import Photo, {IPhoto} from '../models/Photo';
+import Photo, { IPhoto } from '../models/Photo';
 
 
 export async function getPhotos(req: Request, res: Response): Promise<Response> {
